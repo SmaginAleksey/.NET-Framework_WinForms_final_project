@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dab5e279ee7e4fbda562e9e6bb350c15" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="ExtInfoModel.Categories" Width="1.5" PointX="5.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExtInfoModel.History" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExtInfoModel.Locations" Width="1.5" PointX="0.625" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExtInfoModel.PBX" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExtInfoModel.PBXModels" Width="1.5" PointX="5.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExtInfoModel.Phones" Width="1.5" PointX="8.5" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExtInfoModel.PhoneTypes" Width="1.5" PointX="5.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExtInfoModel.PhoneVendors" Width="1.5" PointX="11.375" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExtInfoModel.RailroadStations" Width="1.5" PointX="0.625" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExtInfoModel.Subscribers" Width="1.5" PointX="8.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ExtInfoModel.sysdiagrams" Width="1.5" PointX="15.75" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="ExtInfoModel.FK_History_Categories" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="ExtInfoModel.FK_Subscribers_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="ExtInfoModel.FK_History_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="ExtInfoModel.FK_History_PBX" ManuallyRouted="false" />
+        <AssociationConnector Association="ExtInfoModel.FK_History_Phones" ManuallyRouted="false" />
+        <AssociationConnector Association="ExtInfoModel.FK_Locations_RailroadStations" ManuallyRouted="false" />
+        <AssociationConnector Association="ExtInfoModel.FK_Subscribers_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="ExtInfoModel.FK_PBX_PBXModels" ManuallyRouted="false" />
+        <AssociationConnector Association="ExtInfoModel.FK_PBX_RailroadStations" ManuallyRouted="false" />
+        <AssociationConnector Association="ExtInfoModel.FK_Subscribers_PBX" ManuallyRouted="false" />
+        <AssociationConnector Association="ExtInfoModel.FK_Phones_PhoneTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="ExtInfoModel.FK_Phones_PhoneVendors" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="ExtInfoModel.FK_Subscribers_Phones" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ExtInfoModel.Security" Width="1.5" PointX="11.375" PointY="3.5" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

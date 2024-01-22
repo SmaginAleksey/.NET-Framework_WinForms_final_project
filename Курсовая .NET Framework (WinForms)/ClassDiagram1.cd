@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Курсовая.NET_Framework__WinForms_.AddCategoryForm">
+    <Position X="11" Y="11.25" Width="1.75" />
+    <Members>
+      <Method Name="AddCategoryForm" Hidden="true" />
+      <Field Name="buttonAdd" Hidden="true" />
+      <Method Name="buttonAdd_Click" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+      <Field Name="textBoxCategory" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAQAAIAACAAAAAAAAiAAgACAAAAAAAAEAAAAQAAAAA=</HashCode>
+      <FileName>AddCategoryForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.AddPBXForm">
+    <Position X="13.25" Y="9.75" Width="1.75" />
+    <Members>
+      <Method Name="AddPBXForm" Hidden="true" />
+      <Field Name="buttonAdd" Hidden="true" />
+      <Method Name="buttonAdd_Click" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="panelTop" Hidden="true" />
+      <Field Name="panelTopLeft" Hidden="true" />
+      <Field Name="panelTopRight" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+      <Field Name="textBox2" Hidden="true" />
+      <Field Name="textBoxPBXModel" Hidden="true" />
+      <Field Name="textBoxRailroadStation" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAgAAAkCAiAAgACBAAIAgEAEAIAAAAAAAA=</HashCode>
+      <FileName>AddPBXForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.AddPhoneForm">
+    <Position X="11" Y="12.75" Width="1.5" />
+    <Members>
+      <Method Name="AddPhoneForm" Hidden="true" />
+      <Field Name="buttonAdd" Hidden="true" />
+      <Method Name="buttonAdd_Click" Hidden="true" />
+      <Field Name="comboBoxTypes" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="panelTop" Hidden="true" />
+      <Field Name="panelTopLeft" Hidden="true" />
+      <Field Name="panelTopRight" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+      <Field Name="textBox2" Hidden="true" />
+      <Field Name="textBox3" Hidden="true" />
+      <Field Name="textBoxModel" Hidden="true" />
+      <Field Name="textBoxVendor" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAAAAQAACAAIACAAAiAAgBqAAAIAAMAEAIAIAAAAAA=</HashCode>
+      <FileName>AddPhoneForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.AddRailroadStationForm">
+    <Position X="11" Y="9.75" Width="2" />
+    <Members>
+      <Method Name="AddRailroadStationForm" Hidden="true" />
+      <Field Name="buttonAdd" Hidden="true" />
+      <Method Name="buttonAdd_Click" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+      <Field Name="textBoxRailroadStation" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAiAAgACBAAAAgAAEAAAAQAAAAA=</HashCode>
+      <FileName>AddRailroadStationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.CatalogForm">
+    <Position X="8.75" Y="9.75" Width="2" />
+    <Members>
+      <Method Name="CatalogForm" Hidden="true" />
+      <Method Name="CatalogForm_Load" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="statusStrip1" Hidden="true" />
+      <Field Name="tabControl1" Hidden="true" />
+      <Method Name="tabControl1_SelectedIndexChanged" Hidden="true" />
+      <Field Name="tabPageCategories" Hidden="true" />
+      <Field Name="tabPagePBX" Hidden="true" />
+      <Field Name="tabPagePhones" Hidden="true" />
+      <Field Name="tabPageRailroadStations" Hidden="true" />
+      <Field Name="toolStrip1" Hidden="true" />
+      <Field Name="toolStripButtonAdd" Hidden="true" />
+      <Method Name="toolStripButtonAdd_Click" Hidden="true" />
+      <Field Name="toolStripButtonDelete" Hidden="true" />
+      <Method Name="toolStripButtonDelete_Click" Hidden="true" />
+      <Field Name="toolStripButtonEdit" Hidden="true" />
+      <Method Name="toolStripButtonEdit_Click" Hidden="true" />
+      <Field Name="toolStripButtonRefresh" Hidden="true" />
+      <Field Name="toolStripStatusLabelAdminIndicator" Hidden="true" />
+      <Field Name="toolStripStatusLabelRowCount" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIACQAAAACAAAAQgBEiAAAKCcBiAAAiMAAAAGQAAJAE=</HashCode>
+      <FileName>CatalogForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.ExtensionChangeForm">
+    <Position X="4.75" Y="12.5" Width="3" />
+    <Members>
+      <Method Name="button2_Click" Hidden="true" />
+      <Field Name="buttonAccept" Hidden="true" />
+      <Method Name="buttonAccept_Click" Hidden="true" />
+      <Field Name="buttonCancel" Hidden="true" />
+      <Field Name="comboBoxCategory" Hidden="true" />
+      <Field Name="comboBoxLocationRailroadStation" Hidden="true" />
+      <Field Name="comboBoxPBXModel" Hidden="true" />
+      <Field Name="comboBoxPhoneModel" Hidden="true" />
+      <Method Name="comboBoxPhoneModel_SelectedIndexChanged" Hidden="true" />
+      <Field Name="comboBoxRailroadStation" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="ExtensionChangeForm_Load" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+      <Field Name="textBox10" Hidden="true" />
+      <Field Name="textBox2" Hidden="true" />
+      <Field Name="textBox3" Hidden="true" />
+      <Field Name="textBox4" Hidden="true" />
+      <Field Name="textBox5" Hidden="true" />
+      <Field Name="textBox6" Hidden="true" />
+      <Field Name="textBox7" Hidden="true" />
+      <Field Name="textBox8" Hidden="true" />
+      <Field Name="textBox9" Hidden="true" />
+      <Field Name="textBoxAddInfo" Hidden="true" />
+      <Field Name="textBoxExtension" Hidden="true" />
+      <Field Name="textBoxLocationPosition" Hidden="true" />
+      <Field Name="textBoxPort" Hidden="true" />
+      <Field Name="textBoxSubscriberName" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>WKAAAAAkASAAAACAECiEBAFCIgAAIQAAECAABQAQAYA=</HashCode>
+      <FileName>ExtensionChangeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.ExtensionHistoryForm">
+    <Position X="1.25" Y="12.5" Width="3" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="ExtensionHistoryForm_Load" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="statusStrip1" Hidden="true" />
+      <Field Name="toolStripStatusLabelRowCount" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAACAAAgAgAACAAAACIAgACAAAAAAAAAAAAAE=</HashCode>
+      <FileName>ExtensionHistoryForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.Form1">
+    <Position X="5.75" Y="9.75" Width="2" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="Form1" Hidden="true" />
+      <Method Name="Form1_Load" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="menuStrip1" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="statusStrip1" Hidden="true" />
+      <Field Name="toolStrip1" Hidden="true" />
+      <Field Name="toolStripButtonFreedExtension" Hidden="true" />
+      <Method Name="toolStripButtonFreedExtension_Click" Hidden="true" />
+      <Field Name="toolStripButtonHistory" Hidden="true" />
+      <Method Name="toolStripButtonHistory_Click" Hidden="true" />
+      <Field Name="toolStripButtonModifySubscriber" Hidden="true" />
+      <Method Name="toolStripButtonModifySubscriber_Click" Hidden="true" />
+      <Field Name="toolStripButtonRefresh" Hidden="true" />
+      <Method Name="toolStripButtonRefresh_Click" Hidden="true" />
+      <Field Name="toolStripStatusLabelAdminIndicator" Hidden="true" />
+      <Field Name="toolStripStatusLabelRowCount" Hidden="true" />
+      <Field Name="атсToolStripMenuItem" Hidden="true" />
+      <Method Name="атсToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="выходToolStripMenuItem" Hidden="true" />
+      <Method Name="выходToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="категорииВыходаToolStripMenuItem" Hidden="true" />
+      <Method Name="категорииВыходаToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="менюToolStripMenuItem" Hidden="true" />
+      <Field Name="настройкиToolStripMenuItem" Hidden="true" />
+      <Field Name="операторОтчётовToolStripMenuItem" Hidden="true" />
+      <Method Name="операторОтчётовToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="отчётыToolStripMenuItem" Hidden="true" />
+      <Field Name="справочникToolStripMenuItem" Hidden="true" />
+      <Field Name="телефоныToolStripMenuItem" Hidden="true" />
+      <Method Name="телефоныToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="узлыToolStripMenuItem" Hidden="true" />
+      <Method Name="узлыToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="учетныеЗаписиToolStripMenuItem" Hidden="true" />
+      <Method Name="учетныеЗаписиToolStripMenuItem_Click" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AwAABAQMICAAAAAACkiAICDSZAgQAQBFYBQACQAAgAM=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.LoginForm">
+    <Position X="3.5" Y="9.75" Width="1.75" />
+    <Members>
+      <Field Name="buttonLogIn" Hidden="true" />
+      <Method Name="buttonLogIn_Click" Hidden="true" />
+      <Field Name="comboBoxRole" Hidden="true" />
+      <Method Name="comboBoxRole_SelectedIndexChanged" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Method Name="LoginForm" Hidden="true" />
+      <Method Name="LoginForm_FormClosed" Hidden="true" />
+      <Field Name="textBoxLogin" Hidden="true" />
+      <Method Name="textBoxLogin_KeyPress" Hidden="true" />
+      <Field Name="textBoxPassword" Hidden="true" />
+      <Method Name="textBoxPassword_KeyPress" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CAEBAAAACCAAABAAABCAABACgAIAAAECAQAAAAAAAAA=</HashCode>
+      <FileName>LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.ExtInfoEntities">
+    <Position X="15.75" Y="9.75" Width="1.5" />
+    <Members>
+      <Method Name="OnModelCreating" Hidden="true" />
+      <Method Name="sp_alterdiagram" Hidden="true" />
+      <Method Name="sp_creatediagram" Hidden="true" />
+      <Method Name="sp_dropdiagram" Hidden="true" />
+      <Method Name="sp_helpdiagramdefinition" Hidden="true" />
+      <Method Name="sp_helpdiagrams" Hidden="true" />
+      <Method Name="sp_renamediagram" Hidden="true" />
+      <Method Name="sp_upgraddiagrams" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAICAAAAAAAhCAAAAQICQAAAkAAEEAAAAAAGMQABAAA=</HashCode>
+      <FileName>Model1.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.Categories">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAACAQAAAAA=</HashCode>
+      <FileName>Categories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.History">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAKAAAIAAAAAgAAAAIAAAQACAIBEQAAAAEAIAABAAA=</HashCode>
+      <FileName>History.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.Locations">
+    <Position X="10" Y="4" Width="1.5" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true">
+      <Path>
+        <Point X="9.25" Y="1.062" />
+        <Point X="9.25" Y="1.375" />
+        <Point X="9.92" Y="1.375" />
+        <Point X="9.92" Y="3.89" />
+        <Point X="10.75" Y="3.89" />
+        <Point X="10.75" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAgAQAAAEAAAAAAAAAAAAACAQAAAAA=</HashCode>
+      <FileName>Locations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.PBX">
+    <Position X="11.75" Y="4" Width="1.5" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true">
+      <Path>
+        <Point X="9.25" Y="1.062" />
+        <Point X="9.25" Y="1.375" />
+        <Point X="9.909" Y="1.375" />
+        <Point X="9.909" Y="3.89" />
+        <Point X="12.5" Y="3.89" />
+        <Point X="12.5" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAQAIAEAAAAAAAAAAAAACAQAAAAA=</HashCode>
+      <FileName>PBX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.PBXModels">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true">
+      <Path>
+        <Point X="9.25" Y="1.062" />
+        <Point X="9.25" Y="1.375" />
+        <Point X="2.908" Y="1.375" />
+        <Point X="2.908" Y="4.058" />
+        <Point X="2" Y="4.058" />
+        <Point X="2" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>PBXModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.Phones">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgAAACAAEAAAAAAAAgAAAAAAAAAgCAQAAAAI=</HashCode>
+      <FileName>Phones.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.PhoneTypes">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>PhoneTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.PhoneVendors">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>PhoneVendors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.RailroadStations">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAIAAAQAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>RailroadStations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.Security">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true">
+      <Path>
+        <Point X="9.25" Y="1.062" />
+        <Point X="9.25" Y="1.375" />
+        <Point X="4.602" Y="1.375" />
+        <Point X="4.602" Y="4.058" />
+        <Point X="3.75" Y="4.058" />
+        <Point X="3.75" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAAACAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Security.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.sp_helpdiagramdefinition_Result" Collapsed="true">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sp_helpdiagramdefinition_Result.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.sp_helpdiagrams_Result" Collapsed="true">
+    <Position X="13.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAEAAiAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sp_helpdiagrams_Result.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.Subscribers">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAKAAAIAAAAAgAAAAIAAAQACAIAEQAAAAAAIAABAAA=</HashCode>
+      <FileName>Subscribers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.sysdiagrams" Collapsed="true">
+    <Position X="13.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAAAAAAAAAQAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sysdiagrams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.Program">
+    <Position X="13.75" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAAAAAIAAAAKAAAAAAAAggAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.ReportsForm">
+    <Position X="1.75" Y="9.75" Width="1.25" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="folderBrowserDialog1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="linkLabelReportAllUsedExtensionsExcel" Hidden="true" />
+      <Method Name="linkLabelReportAllUsedExtensionsExcel_LinkClicked" Hidden="true" />
+      <Field Name="linkLabelReportAllUsedExtensionsHtm" Hidden="true" />
+      <Method Name="linkLabelReportAllUsedExtensionsHtm_LinkClicked" Hidden="true" />
+      <Method Name="ReportsForm" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAAAAQAABSAAAACAAAAAAAAAEAAAIAAAAA=</HashCode>
+      <FileName>ReportsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.Properties.Settings" Collapsed="true">
+    <Position X="13.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Курсовая.NET_Framework__WinForms_.accountsManagementForm">
+    <Position X="8.5" Y="12.75" Width="2.25" />
+    <Members>
+      <Method Name="accountsManagementForm" Hidden="true" />
+      <Method Name="accountsManagementForm_Load" Hidden="true" />
+      <Field Name="buttonConfirmAction" Hidden="true" />
+      <Method Name="buttonConfirmAction_Click" Hidden="true" />
+      <Field Name="buttonDelete" Hidden="true" />
+      <Method Name="buttonDelete_Click" Hidden="true" />
+      <Field Name="buttonEdit" Hidden="true" />
+      <Method Name="buttonEdit_Click" Hidden="true" />
+      <Field Name="checkBox1" Hidden="true" />
+      <Method Name="checkBox1_CheckedChanged" Hidden="true" />
+      <Field Name="checkBox2" Hidden="true" />
+      <Method Name="checkBox2_CheckedChanged" Hidden="true" />
+      <Field Name="comboBoxLogins" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="textBoxConfirmPassword" Hidden="true" />
+      <Field Name="textBoxLogin" Hidden="true" />
+      <Field Name="textBoxPassword" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CgEAAAACgCBAAlEAAACAgAACAAAAAAAAASAAAAEAABA=</HashCode>
+      <FileName>accountsManagementForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
